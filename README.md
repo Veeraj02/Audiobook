@@ -1,7 +1,7 @@
 import pyttsx3
 import PyPDF2
-E-Book = open('NAME.pdf', 'rb')
-Reader = PyPDF2.PdfFileReader(E-Book)
+EBook = open('NAME.pdf', 'rb')
+Reader = PyPDF2.PdfFileReader(EBook)
 pages = Reader.numPages
 print(pages)
 speaker = pyttsx3.init()
